@@ -1,5 +1,5 @@
 all:
-	cc -std=c99 -Wall -Wextra -pedantic -O2 -o textclip main.c
+	cc -std=c99 -Wall -Wextra -pedantic -O2 -g -o textclip main.c
 
 test: all
 	sh tests/test.sh
